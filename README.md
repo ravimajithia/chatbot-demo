@@ -1,7 +1,8 @@
 # sample-chatbot
 
 ## Background
-Thi project is for demo purpose, it is build with webcomponents + webpack + javascript. Simple chat application that matches user's input message with pre defined constants and reply accordingly. Sample video - https://app.screencast.com/uEY0cMuqMfjxX
+This project is for demo purpose, it is build with webcomponents + webpack + javascript. Simple chat application that matches user's input message with pre defined constants and reply accordingly. Sample video - https://app.screencast.com/uEY0cMuqMfjxX
+NOTE: there is no submit button press enter to send the message
 
 ## Getting started
 Install dependencies
