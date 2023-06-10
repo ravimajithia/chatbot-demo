@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Poppins&display=swap');
+
+.msg-send{
+	background: #3947da;
+  color: #FAFDFF;
+  float: right;
+}
+
+.msg-receive{
+	background: #FFF;
+  color: #383942;
+  float: left;
+}
+
+.msg-send, .msg-receive{
+  font-family: Poppins, sans-serif;
+  padding: 0.75rem 1.2rem;
+  margin-right: 0.75rem;
+  font-size: 14px;
+  max-width: 50%;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.5em;
+}
+
+.msg-receive:hover, .msg-send:hover{
+	opacity: .9;
+}

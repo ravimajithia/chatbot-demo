@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Poppins&display=swap');
+
+.chat-room{
+	background-color:#F4F7FD;
+	width: 500px;
+	border-radius: 5px 5px 0 0;
+  margin: 0 auto;
+  font-family: Poppins, sans-serif;
+
+  .chat-head{
+    width: inherit;
+    height: 45px;
+    background: #2c3e50;
+    border-radius: 5px 5px 0 0;
+
+    h2{
+      color: white;
+      padding: 8px;
+      display: inline-block;
+      margin: 0;
+    }
+  }
+
+  .chat-body{
+    width: inherit;
+    height: calc(100vh - 98px);
+    overflow: auto;
+    margin-bottom: 45px;
+  }
+}
+
+.chat-text{
+	position: fixed;
+	bottom: 0;
+	height: 45px;
+	width: inherit;
+
+  textarea{
+    width: inherit;
+    height: inherit;
+    box-sizing: border-box;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+  }
+}
