@@ -14,14 +14,6 @@ class ChatMessage extends HTMLElement {
   }
 
   /**
-   * Define the attributes to be observed.
-   * @returns {string[]}
-   */
-  static get observedAttributes () {
-    return ['msgType']
-  }
-
-  /**
    * Called when the element is added to the DOM.
    * @returns {void}
    */
