@@ -6,10 +6,14 @@ NOTE: there is no submit button press enter to send the message
 
 ## Getting started
 Install dependencies
-`npm install`
+```
+npm install
+```
 
 Run project in browser
-`npm run serve`
+```
+npm run serve
+````
 
 ## Directory Structure
 
